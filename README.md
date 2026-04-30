@@ -30,8 +30,8 @@ Aplicación en Java que lee un fichero CSV con información de videojuegos, proc
 2. Ejecutar la clase `Main3.java`
 3. El programa leerá los datos automáticamente
 4. Se generarán los archivos:
-   * `resumen_videojuegos.txt`
-   * `log_videojuegos.txt`
+   * resumen_videojuegos.txt
+   * log_videojuegos.txt
 
 # Autor
 Adrián Jacob Ramos Reverón
