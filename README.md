@@ -26,8 +26,8 @@ Aplicación en Java que lee un fichero CSV con información de videojuegos, proc
 
 # Uso del programa
 
-1. Colocar el archivo `videojuegos.csv` en la carpeta del proyecto
-2. Ejecutar la clase `Main3.java`
+1. Colocar el archivo videojuegos.csv en la carpeta del proyecto
+2. Ejecutar la clase App.java
 3. El programa leerá los datos automáticamente
 4. Se generarán los archivos:
    * resumen_videojuegos.txt
