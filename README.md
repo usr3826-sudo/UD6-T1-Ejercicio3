@@ -1,19 +1,37 @@
-## Getting Started
+# Procesamiento de Videojuegos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Descripción
 
-## Folder Structure
+Aplicación en Java que lee un fichero CSV con información de videojuegos, procesa los datos y genera un informe con estadísticas, además de un archivo de log.
 
-The workspace contains two folders by default, where:
+# Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Leer datos desde un fichero CSV
+* Convertir datos en objetos
+* Calcular:
+  * Número total de videojuegos
+  * Total de horas jugadas
+  * Media de horas
+  * Videojuego con más horas
+* Generar fichero de resumen
+* Generar fichero de log sin sobrescribir
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Tecnologías utilizadas
 
-## Dependency Management
+* Java
+* ArrayList
+* Ficheros (Files.readAllLines, Files.writeString)
+* Manejo de datos CSV
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# UD6-T1-Ejercicio3"  
+# Uso del programa
+
+1. Colocar el archivo `videojuegos.csv` en la carpeta del proyecto
+2. Ejecutar la clase `Main3.java`
+3. El programa leerá los datos automáticamente
+4. Se generarán los archivos:
+   * `resumen_videojuegos.txt`
+   * `log_videojuegos.txt`
+
+# Autor
+Adrián Jacob Ramos Reverón
