@@ -10,5 +10,13 @@ public class Videojuegos {
         this.genero = genero;
         this.horasJugadas = horasJugadas;
     }
-      
+
+    public String getTitulo() { return titulo; }
+    public int getHorasJugadas() { return horasJugadas; }
+
+    @Override
+    public String toString() {
+        return titulo + " - " + genero + " - " + horasJugadas;
+    }
+
 }
